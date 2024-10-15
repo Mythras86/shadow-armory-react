@@ -1,0 +1,42 @@
+#Header {
+
+    li {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .headText {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: turquoise;
+        font-size: 2rem;
+        padding: 0.2rem;
+    }
+    
+    menu {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: stretch;
+    
+        li {
+            flex: 1 1 100%;
+    
+            button {
+                display: block;
+                width: 100%;
+                text-align: center;
+                background-color: black;
+                color: darkmagenta;
+                font-size: 1.2rem;
+                padding: 0.2rem;
+            }
+        }
+    }
+    
+    .active {
+        background-color: darkorange;
+    }
+}
