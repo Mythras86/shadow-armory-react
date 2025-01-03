@@ -1,5 +1,5 @@
 'use client';
-import TabButton from '../TabButtons';
+import TabButton from '../../../../mythras-projects-react/website/src/components/tabButtons';
 import { MENUITEMS } from './Header.data';
 import './Header.scss';
 
